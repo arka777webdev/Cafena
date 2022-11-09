@@ -7,8 +7,8 @@ $(function () {
    
    $('.customer-slider__items').slick({
 
-   prevArrow:'<button type="button" class="slick-arrow slick-prev"><img src="img/icons/arrow-slider-left.svg" alt="prev"></button>',
-      nextArrow: '<button type="button" class="slick-arrow slick-next"><img src="img/icons/arrow-slider-right.svg" alt="next"></button>',
+      prevArrow:'<button type="button" class="slick-arrow slick-prev"><img src="/src/img/icons/arrow-slider-left.svg" alt="prev"></button>',
+      nextArrow: '<button type="button" class="slick-arrow slick-next"><img src="/src/img/icons/arrow-slider-right.svg" alt="next"></button>',
       responsive: [
          {
             breakpoint: 425,
