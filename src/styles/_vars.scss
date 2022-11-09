@@ -1,0 +1,13 @@
+:root{
+  --site-background:  #F4F1EE;
+}
+
+
+
+
+@function max($numbers...) {
+  @return m#{a}x(#{$numbers});
+}
+@function min($numbers...) {
+  @return m#{i}n(#{$numbers});
+}

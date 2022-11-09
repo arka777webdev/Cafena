@@ -1,0 +1,1156 @@
+@import 'vars';
+@import 'fonts';
+@import 'reset';
+@import 'global';
+@import 'libs';
+
+
+
+//header
+
+// .wrapper {
+
+// }
+
+.header {
+
+   &__inner {
+      padding: 3.3rem 0;
+      display: flex;
+      align-items: center;
+   }
+
+   &__logo{
+      display: none;
+   }
+   &__img{
+      display: none;
+   }
+}
+
+.menu {
+
+   &__list {
+      display: flex;
+      align-items: center;
+   }
+
+   &__list-item {
+      margin-right: 45px;
+   }
+
+   &__list-link {
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 1.6rem;
+      letter-spacing: 0.04em;
+      color: #000000;
+   }
+
+   &__logo {
+      margin: 0 78px;
+   }
+
+
+}
+
+
+.user-nav {
+   gap: 68px;
+   margin-left: auto;
+
+   // &__link {
+   // }
+
+   // &__search {
+   // }
+
+   &__burger {
+      display: none;
+   }
+}
+
+
+
+
+
+
+.hero {
+
+   padding: 7.6rem 0;
+
+		&__inner {
+         display: flex;
+         justify-content: space-between;
+		}
+
+		// &__content {
+		// }
+
+		&__title {
+         width: 64.6rem;
+         margin-bottom: 3.3rem;
+		}
+
+		&__text {
+         font-family: 'Open Sans';
+         font-style: normal;
+         font-weight: 400;
+         font-size: 1.8rem;
+         line-height: 3rem;
+         color: #404040;
+         margin-bottom: 5.5rem;
+		}
+
+      &__btn-box{
+         display: flex;
+         gap: 2.4rem;
+      }
+		// &__btn {
+		// }
+
+      &__img{
+         width: 100%;
+         object-fit: cover;
+      }
+
+}
+
+
+.examples {
+padding: 9.5rem 0 8.1rem;
+
+   &__items {
+      // position: relative;
+      display: flex;
+      gap: 1.5rem;
+   }
+
+   &__item {
+      width: 35.4rem;
+      height: 24.7rem;
+      background-color: #D48A5C;
+   }
+
+
+
+	&__topitems {
+      padding-left: 1.6rem;
+         display: flex;
+         gap: 3rem;
+         margin-top: -27.8rem;
+         // position: absolute; 
+	}
+
+
+	&__topitem {
+      display: flex;
+
+      max-width: 35rem;
+      height: 25.6rem;
+      width: 100%;
+     
+         padding: 1.6rem 1.5rem 2.9rem 1.6rem;
+
+         &:nth-child(1){
+            background-image: url('../img/content/examples-1.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center right;
+            z-index: 1;
+       
+     
+         
+         }
+         &:nth-child(2){
+            background-image: url('../img/content/examples-2.jpg');
+            background-repeat: no-repeat;
+            z-index: 1;
+            background-size: cover;
+      
+         
+         }
+         &:nth-child(3){
+            background-image: url('../img/content/examples-3.jpg');
+            background-repeat: no-repeat;
+            z-index: 1;
+            background-size: cover;
+
+         }
+
+      }
+
+      // &__topitem-link {
+
+      // }
+      &__topitem img{
+         width: 100%;
+
+      }
+
+
+
+      &__topitem-inner {
+         display: flex;
+         flex-direction: column;
+         justify-content: space-between;
+         position: relative;
+         &::before{
+            content: "";
+            position: absolute;
+            width: 20rem;
+            height: 8.1rem;
+            top: -1.6rem;
+            left: -1.6rem;
+            background-image: url('../img/decor/examples-item-decor.svg');
+            background-repeat: no-repeat;
+            z-index: -1;
+         }
+      }
+
+
+      &__topitem-content{
+         display: flex;
+         flex-direction: column;
+         justify-content: space-between;
+   
+      }
+         
+      &__topitem-num {
+         font-family: 'ZCOOL XiaoWei';
+         font-style: normal;
+         font-weight: 400;
+         font-size: 1.4rem;
+         color: #FFFFFF;
+      }
+
+
+      &__topitem-name {
+         font-family: 'ZCOOL XiaoWei';
+         font-style: normal;
+         font-weight: 400;
+         font-size: 1.4rem;
+         color: #232020;
+
+      }
+
+   
+      &__topitem-text {
+         display: block;
+         font-family: 'Open Sans';
+         font-style: normal;
+         font-weight: 400;
+         font-size: 1rem;
+         line-height: 1rem;
+         color: #FFFFFF;
+         width: 19.5rem;
+         margin-top: auto;
+
+      }
+   }
+
+
+//Roasted
+
+.roasted {
+   background-image: url('../img/content/roasted-bg.jpg');
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-size: cover;
+   min-height: 72.9rem;
+   padding-top: 26.1rem;
+
+   &__inner {
+      text-align: center;
+   }
+
+   // &__title {
+   // }
+
+   &__text {
+      text-align: center;
+      max-width: 67.1rem;
+      font-family: 'Open Sans';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 1.6rem;
+      line-height: 2.6rem;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      letter-spacing: 0.04em;
+      color: #141313;
+      margin: 0 auto;
+      margin-bottom: 1rem;
+
+   }
+
+
+
+}
+
+
+//Popular
+.popular {
+   padding: 14.1rem 0 9.4rem;
+
+   // &__inner {
+   // }
+
+   &__btn-box {
+      display: flex;
+      justify-content: center;
+   }
+
+   &__btn {
+      margin-bottom: 1.4rem;
+   }
+
+   &__title {
+    
+      margin-bottom: 7rem;
+      text-align: center;
+   }
+
+   &__items {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr );
+      gap: 9.5rem;
+
+   }
+
+
+   &__item{
+      text-align: center;
+      padding-top: 3.7rem;
+      border: 0.3rem solid #414141;
+      position: relative;
+      padding-left: 18.3rem;
+      padding-bottom: 1.3rem;
+
+
+      &::after{
+         position: absolute;
+         content: "";
+         width: 16rem;
+         height: 16rem;
+
+         top: -2rem;
+         left: -5rem;
+      }
+
+      &--1:after {
+         background-image: url('../img/content/popular-1.png');
+         background-repeat: no-repeat;
+
+      }
+
+      &--2:after{
+         background-image: url('../img/content/popular-2.png');
+         background-repeat: no-repeat;
+
+      }
+
+      &--3::after{
+         background-image: url('../img/content/popular-3.png');
+         background-repeat: no-repeat;
+
+      }
+
+      &--4::after{
+         background-image: url('../img/content/popular-4.png');
+         background-repeat: no-repeat;
+
+      }
+
+      &--5::after{
+
+         background-image: url('../img/content/popular-5.png');
+         background-repeat: no-repeat;
+      }
+
+      &--6::after{
+         background-image: url('../img/content/popular-6.png');
+         background-repeat: no-repeat;
+      }
+
+   }
+
+
+
+   &__item-title {
+      font-family: 'ZCOOL XiaoWei';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 3rem;
+      color: #232020;
+      margin-bottom: 1.1rem;
+      white-space: nowrap;
+      text-align: left;
+
+   }
+
+   &__item-pricebox {
+      // display: flex;
+      // justify-content: flex-end
+      // display: block;
+      text-align: right;
+   }
+
+
+   &__item-price{
+      font-family: 'Open Sans';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 2rem;
+      letter-spacing: 0.04em;
+      color: #D48A5C;
+      padding-right: 1.4rem;
+   }
+}
+
+
+// Coffee-machine
+
+.coffee-machine {
+   background-color: #FFFFFF;
+   padding: 3.7rem 0;
+
+   &__inner {
+      display: flex;
+      justify-content: space-between;
+   }
+
+   &__content {
+      padding-top: 13rem;
+      max-width: 67.6rem;
+   }
+
+   &__title {
+      max-width: 55.6rem;
+
+   }
+
+   &__text {
+      font-family: 'Open Sans';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 1.6rem;
+      letter-spacing: 0.04em;
+      color: #6F6F6F;
+      margin-bottom: 0.7rem;
+      max-width: 67.6rem;
+      margin-bottom: 1.4rem;
+   }
+
+   &__text--bold{
+      font-family: 'Open Sans';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 1.6rem;
+      letter-spacing: 0.04em;
+      color: #141313;
+      margin-bottom: 3.3rem;
+   }
+   &__image {
+      flex: none;
+   }
+
+   &__img {
+      max-width: 100%;
+
+   }
+   // &__btn-box {
+   
+
+   // }
+
+
+}
+
+
+// best
+
+.best {
+   padding: 9.1rem 0 9.4rem 0;
+
+   // &__inner {
+   
+   // }
+
+   &__top-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 4.7rem;
+   }
+
+   // &__title {
+ 
+   // }
+
+   &__btn {
+      padding: 1rem 2.6rem;
+     
+   }
+
+   &__items {
+
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 3rem;
+   }
+
+
+
+   &__item {
+      max-width: 35rem;
+      height: 45.4rem;
+      width: 100%;
+      background-color: #fff;
+      padding: 2.3rem 2.4rem 3rem 2.3rem;
+   }
+
+
+
+   &__item-top {
+      width: 30.3rem;
+      height: 26.7rem;
+      background-color: #13131A;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+   }
+
+   &__itemtopimg {
+      object-fit: cover;
+   }
+
+   &__item-bottom {
+      padding-top: 3.1rem;
+   }
+
+   &__rating {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      margin-bottom: 1.7rem;
+   }
+
+   &__rating-text {
+      font-family: 'Open Sans';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 1.6rem;
+      letter-spacing: 0.04em;
+      color: #1C1A1A;
+      margin-right: 0.4rem;
+   }
+
+   &__title {
+      font-family: 'ZCOOL XiaoWei';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 2.4rem;
+      letter-spacing: 0.04em;
+      color: #1C1A1A;
+      margin-bottom: 1.3rem;
+      padding-right: 1.5rem;
+   }
+
+   &__price {
+      font-family: 'Open Sans';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 1.6rem;
+      letter-spacing: 0.04em;
+      color: #1C1A1A;
+      span{
+         font-family: 'Open Sans';
+         font-style: normal;
+         font-weight: 600;
+         font-size: 1.6rem;
+         letter-spacing: 0.04em;
+         color: #EAB665;
+      }
+   }
+}
+
+// .stars {
+// }
+
+// customer
+.customer {
+
+   &__inner {
+      display: flex;
+      justify-content: center;
+    
+   }
+
+   &__btn {
+ 
+      margin-bottom: 3.4rem;
+
+   }
+
+
+}
+
+
+.customer-slider {
+
+   // &__items {
+
+   // }
+
+   &__item {
+      display: flex;
+      justify-content: center;
+      width: 76.2rem;
+      height: 34.4rem;
+      margin: 0 auto;
+      // border: 1px solid red;
+      text-align: center;
+
+   }
+
+   // &__item-title {
+    
+   // }
+
+   &__item-text {
+      text-align: center;
+      min-height: 10rem;
+     
+      font-family: 'Open Sans';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 2rem;
+      letter-spacing: 0.04em;
+      color: #5C5C5C;
+      max-width: 90.5rem;
+      padding: 0 11.8rem 0 12.8rem;
+      margin: 0 auto;
+      margin-bottom: 4rem;
+      
+   }
+
+   &__item-img {
+   
+      margin: 0 auto;
+      margin-bottom: 0.8rem;
+   }
+
+
+   &__item-name {
+      font-family: 'ZCOOL XiaoWei';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 1.6rem;
+      letter-spacing: 0.04em;
+      color: #1C1A1A;
+   }
+
+
+   .slick-arrow{
+      border: none;
+      outline: none;
+      background-color: transparent;
+      position: absolute;
+      z-index: 5;
+      transform: translateY(-50%);
+      cursor: pointer;
+      top: 50%;
+      border: 0.1rem solid #D48A5C;
+      border-radius: 50%;
+      padding: 1.3rem 1.8rem;
+
+      }
+
+
+      .slick-prev {
+         left: 0;
+      }
+
+      .slick-next {
+         right: 2.5rem;
+      }
+
+}
+
+
+//Booking
+
+.booking {
+
+   padding: 8.7rem 0 9.4rem 0;
+
+   &__inner {
+      display: flex;
+      // justify-content: space-between;
+   }
+
+   // &__map {
+
+
+   // }
+
+   &__map-img {
+      max-width: 58.7rem;
+      width: 100%;
+
+   }
+
+   &__content {
+      width: 52.3rem;
+      padding: 3.2rem 8rem 2.5rem 8rem;
+      background-color: #fff;
+   }
+
+   // &__content-inner {
+   // }
+
+   &__subtitle {
+      font-family: 'Open Sans';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 1.4rem;
+      letter-spacing: 0.04em;
+      color: #D58A5C;
+
+   }
+
+
+   &__title {
+      font-family: 'ZCOOL XiaoWei';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 2.9rem;
+      letter-spacing: 0.04em;
+      color: #1C1A1A;
+   }
+
+
+   &__form {
+      margin-bottom: 2.1rem;
+      position: relative;
+   }
+
+
+   &__form-input {
+
+      border: none;
+      font-family: 'Open Sans';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 1.4rem;
+      letter-spacing: 0.04em;
+      color: #000000;
+      padding: 1.6rem 5rem 1.5rem 1.8rem;
+      background-color: #F4F1EE;
+      display: block;
+      width: 100%;
+      &::placeholder{
+         font-family: 'Open Sans';
+         font-style: normal;
+         font-weight: 400;
+         font-size: 1.4rem;
+         letter-spacing: 0.04em;
+         color: #5C5C5C;
+      }
+      &:not(:last-child){
+         margin-bottom: 1rem;
+      }
+   }
+
+
+
+
+   // &__form-inputtext {
+
+   // }
+
+
+   &__form-inputimg--person {
+      position: absolute;
+      right: 1.8rem;
+      top: 1.5rem;
+   }
+
+
+   // &__form-inputdate {
+
+
+   // }
+
+
+   &__form-inputimg--date {
+      position: absolute;
+      right: 1.8rem;
+      top: 7.5rem;
+   }
+
+
+
+
+   // &__form-inputemail {
+
+
+   // }
+   
+   &__form-inputimg--email{
+      position: absolute;
+      right: 1.8rem;
+      top: 14rem;
+   }
+
+   // &__btn {
+
+   // }
+
+}
+
+
+
+//News
+
+.news {
+padding-bottom: 9.7rem;
+   // &__inner {
+  
+   // }
+
+   &__btn-box{
+     display: flex;
+     justify-content: center;
+   }
+
+   &__btn {
+      text-align: center;
+      margin-bottom: 3.4rem;
+   }
+
+   &__title {
+      text-align: center;
+      margin-bottom: 5.8rem;
+
+   }
+
+   &__items {
+      // display: grid;
+      // grid-template-columns: repeat(3, 350px );
+
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 3rem;
+
+   }
+
+   &__item {
+      width: 35rem;
+      height: 45.4rem;
+   }
+
+   // &__item-top {
+   // }
+
+   &__item-img {
+      width: 100%;
+   }
+
+   &__item-bottom {
+      background-color: #1C1A1A;
+      border: 0.1rem solid #FFFFFF;
+      padding: 1.9rem 7.2rem 1.9rem 2.7rem;
+   }
+
+   &__item-author {
+      font-family: 'Open Sans';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 1.4rem;
+      letter-spacing: 0.04em;
+      color: #FFFFFF;
+      margin-bottom: 0.9rem;
+      span{
+         font-family: 'Open Sans';
+         font-style: normal;
+         font-weight: 400;
+         font-size: 1.4rem;
+         letter-spacing: 0.04em;
+         color: #EAB665;
+      }
+   }
+
+   &__item-name {
+      font-family: 'ZCOOL XiaoWei';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 2rem;
+      letter-spacing: 0.04em;
+      color: #FFFFFF;
+      margin-bottom: 0.9rem;
+   }
+
+   &__item-link {
+         font-family: 'Open Sans';
+         font-style: normal;
+         font-weight: 400;
+         font-size: 1.4rem;
+         letter-spacing: 0.04em;
+         color: #EAB665;
+         padding-right: 2.1rem;
+         position: relative;
+   }
+
+   &__item-link svg {
+      fill: #EAB665;
+   }
+
+   &__item-link:hover svg {
+      fill: blue;
+   }
+
+
+}
+
+
+
+.footer {
+   background-color: #fff;
+
+
+
+
+   &__top {
+      text-align: center;
+      padding: 2.7rem 0 11rem 0;
+   }
+
+   &__link-btn {
+      cursor: pointer;
+      display: inline-block;
+      margin-bottom: 6.2rem;
+      font-family: 'Open Sans';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 1.4rem;
+       color:  #D48A5C;
+      letter-spacing: 0.04em;
+      position: relative;
+      margin-top: -5rem;
+      svg{
+         fill:  #D48A5C;
+
+      }
+
+      span{
+         display: block;
+         font-family: 'Open Sans';
+         font-style: normal;
+         font-weight: 400;
+         font-size: 1.4rem;
+         letter-spacing: 0.04em;
+      }
+
+   }
+
+
+   &__link-btn:hover svg{
+      fill: blue;
+
+   }
+
+
+   &__toprow {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 7rem;
+   }
+
+   &__link-phone {
+      font-family: 'Open Sans';
+      font-style: normal;
+      font-weight: 300;
+      font-size: 1.4rem;
+      letter-spacing: 0.04em;
+      color: #1C1A1A;
+      padding-left: 0rem;
+      padding-right: 1.5rem;
+      position: relative;
+      transition: all .3s;
+      span{
+         padding-left: 0.9rem;
+         font-weight: 600;
+      }  
+
+      }
+   
+   &__link-phone svg{
+      fill: #D48A5C;
+   }
+   &__link-phone:hover svg{
+      fill: blue;
+   }
+
+
+   &__link-address {
+      position: relative;
+      padding-right: 1.5rem;
+      font-family: 'Open Sans';
+      font-style: normal;
+      font-weight: 300;
+      font-size: 1.4rem;
+      letter-spacing: 0.04em;
+      color: #1C1A1A;
+      transition: all .3s;
+      span{
+         padding-left: 0.9rem;
+         font-weight: 600;
+      }
+   }  
+
+   &__link-address svg{
+      fill: #D48A5C;
+   }
+
+   &__link-address:hover svg{
+      fill: blue;
+   }
+
+
+
+   &__form {
+      position: relative;
+
+   }
+
+   &__form-input {
+      font-family: 'Open Sans';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 1.4rem;
+      letter-spacing: 0.04em;
+      color: #000000;
+      padding: 1.1rem 4.4rem 1.1rem 1.5rem;
+      background-color:  #F2EAE2;
+      border: none;
+      &::placeholder{
+         font-family: 'Open Sans';
+         font-style: normal;
+         font-weight: 400;
+         font-size: 1.4rem;
+         letter-spacing: 0.04em;
+         color: #8D8D8D;
+      }
+   }
+
+   &__form-inputlink{
+      position: absolute;
+      top: 1.1rem;
+      right: 1.8rem;
+      transition: all .3s;
+
+   }
+
+   &__form-inputlink svg{
+      fill: #D58A5C;
+
+   }
+
+   &__form-inputlink:hover svg{
+      fill: blue;
+
+   }
+
+
+
+
+
+   // &__logo {
+
+   // }
+
+   &__logo-img {
+      margin-bottom: 0.9rem;
+     
+   }
+
+
+
+
+
+   &__bottomrow {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+   }
+
+   &__text {
+      font-family: 'Open Sans';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 1.4rem;
+      letter-spacing: 0.04em;
+      color: #848484;
+      max-width: 43.9rem;
+      padding-left: 0;
+      padding-right: 1.5rem;
+   }
+
+   &__bottom {
+      border-top: 0.05rem solid #EAB665;
+      
+   }
+
+   &__bottom-inner {
+   
+      text-align: center;
+      padding: 1.8rem 0;
+      
+   }
+
+   &__copyright {
+      font-family: 'Open Sans';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 1.4rem;
+      letter-spacing: 0.04em;
+      color: #979797;
+
+   }
+
+
+
+   .social {
+
+      &__items {
+         display: flex;
+         gap: 0 2.2rem;
+      }
+
+      &__item {
+         padding: 1.2rem;
+         border: 0.1rem solid #6D6D6D;
+         border-radius: 0.4rem;
+      }
+
+   }
+
+
+}
+
+
+
+
+
+
+
+
+@import 'media';

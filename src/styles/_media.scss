@@ -1,0 +1,842 @@
+/* === DESKTOP FIRST === */
+
+/* xl <= Extra extra large (xxl) */
+@media (max-width : 1400px) {
+
+}
+
+/* lg <= Extra large (xl) */
+@media (max-width : 1200px) {
+  
+}
+
+@media (max-width : 1140px) {
+
+
+  .examples{
+
+    &__items{
+
+      flex-direction: column;
+      justify-content:  space-evenly ;
+      align-items: center;
+      gap: 4.2rem;
+    }
+
+    &__topitems{
+        
+        flex-direction: column;
+        justify-content: space-evenly ;
+        align-items: center;
+        margin-top: -85.8rem;
+        gap: 4.2rem;
+    }
+
+  }
+
+
+  .hero{
+    padding-bottom: 0;
+
+    &__inner{
+    flex-wrap: wrap;
+
+    }
+
+      &__img{
+        display: none;
+      }
+    }
+
+    .best{
+
+      &__items{
+        justify-content: space-evenly;
+      }
+    }
+
+    .news{
+
+      &__items{
+        justify-content: space-evenly;
+      }
+    }
+  
+}
+
+
+
+
+@media (max-width : 1130px) {
+
+
+  .popular{
+      &__items{
+        grid-template-columns: repeat(1, 1fr );
+        gap: 7.5rem;
+      }
+      &__items{
+      padding: 0 6rem;
+      }
+
+      &__title{
+        font-size: 2.8rem;
+      }
+
+
+  }
+
+    .coffee-machine{
+      padding: 1.5rem;
+
+      &__img{
+        display: none;
+      }
+      
+    }
+
+    .booking {
+
+      &__inner {
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+
+      &__map{
+        margin-bottom: 1.5rem;
+      }
+    }
+
+}
+
+
+
+
+@media (max-width : 1030px) {
+
+.menu{
+
+  &__list-item{
+    margin-right: 2.5rem;
+  }
+
+  &__logo{
+    margin: 0 3.5rem;
+  }
+}
+
+}
+
+
+
+// @media (max-width : 992px) {
+
+// }
+
+
+
+@media (max-width : 930px) {
+
+  .customer{
+
+    .customer-slider__item-title{
+      font-size: 3rem;
+    }
+    .customer-slider__item-text{
+      font-size: 1.6rem;
+    }
+  
+  }
+
+}
+
+
+
+
+
+@media (max-width : 875px) {
+
+}
+
+
+/* sm <= Medium (md) */
+
+
+@media (max-width : 787px) {
+
+  .menu{
+
+    &__list-item{
+      margin-right: 1.8rem;
+    }
+    
+    &__logo{
+      margin: 0 2rem;
+    }
+  }
+  
+  }
+
+
+
+
+
+
+.customer{
+
+  .customer-slider__item{
+    // font-size: 16px;
+    padding: 0 1.5rem;
+  }
+
+
+}
+
+  .news {
+
+    &__items{
+      display: flex;
+      justify-content: center;
+
+    }
+  
+  
+  }
+
+
+
+
+@media (max-width : 768px) {
+
+
+  .customer{
+  
+    .customer-slider__item-text{
+      font-size: 1.4rem;
+    }
+  
+  }
+  
+    .news {
+  
+      &__item{
+        justify-content: center;
+        align-items: center;
+      }
+    
+    
+    }
+  
+  
+  
+    .footer{
+      &__toprow {
+        flex-wrap: wrap;
+      }
+  
+      // &__link-phone{
+      //   flex: none;
+      //   margin-bottom: 30px;
+      // }
+      // &__link-address{
+      //   margin-bottom: 30px;
+      // }
+        &__bottomrow{
+          flex-wrap: wrap;
+          
+        }
+  
+    }
+  
+  }
+  
+
+
+
+
+
+@media (max-width : 760px) {
+
+  .hero{
+
+    &__inner{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      }
+
+  }
+
+.best{
+
+  &__items{
+    justify-content: center;
+  }
+
+  &__item-top {
+
+    width: 100%;
+
+  }
+
+}
+
+  .news {
+
+    &__items{
+      display: flex;
+      justify-content: center;
+
+    }
+  
+  
+  }
+}
+
+
+
+
+@media (max-width : 722px) {
+
+    .header {
+
+      position: relative;
+
+      &__logo{
+        position: absolute;
+        display: block;
+        top: 2rem;
+        left: 1.5rem;
+      }
+      &__img{
+        position: absolute;
+        display: block;
+        max-width: 28.4rem;
+        height: auto;
+        width: 100%;
+        top: 80%;
+        right: 5rem;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: -1;
+        flex: 0 0 auto;
+      }
+    }
+
+  .hero{
+    padding-top: 28rem;
+
+
+    }
+
+
+
+  .menu{
+    padding: 1rem 0;
+    &__logo{
+      display: none;
+    }
+
+    &__list {
+  
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      display: block;
+      text-align: center;
+      background-color: #D48A5C;
+      transform: translateY(-200%);
+      transition: all .3s;
+      padding: 1.5rem 0;
+    }
+
+    &__list.menu__list--active{
+          transform: translateY(0);
+    }
+
+    &__list-item{
+      padding: 1.5rem 0;
+    }
+
+    &__list-link{
+      display: block;
+      width: 100%;
+   
+    }
+
+  }
+
+
+  .user-nav{
+    display: flex;
+    align-items: center;
+  }
+
+  .user-nav__burger{
+    display: block;
+    z-index: 15;
+    cursor: pointer;
+  
+  }
+
+
+  .footer{
+    &__link-phone{
+      padding-bottom: 1.5rem ;
+    }
+    &__link-address{
+      padding-bottom: 1.5rem ;
+    }
+  }
+
+}
+
+/* xs <= Small (sm) */
+
+
+@media (max-width : 660px) {
+.hero{
+
+  &__content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+
+  &__title{
+    font-size: 3.8rem;
+    max-width: 50rem;
+    text-align: center;
+  }
+
+  &__text{
+    font-size: 1.8rem;
+    padding-right: 1.5rem;
+    padding-left: 0;
+    text-align: center;
+    max-width: 40rem;
+  }
+
+}
+
+
+  .customer{
+    .customer-slider__item-title{
+      font-size: 2.4rem;
+    }
+    .customer-slider__item-text{
+      padding: 0 3rem;
+      font-size: 1.2rem;
+    }
+    
+  }
+  
+
+  .footer{
+
+
+     &__bottomrow{
+      display: flex;
+      justify-content: center;
+    }
+
+    &__logo{
+     display: flex;
+     justify-content: center;
+    }
+
+    &__text{
+      margin-bottom: 1.5rem;
+    }
+
+
+  
+  }
+}
+
+@media (max-width : 630px) {
+    .popular{
+
+      // &__item{
+
+      // }
+
+      &__item-title{
+        font-size: 2.2rem ;
+      
+      }
+    }   
+  }
+
+@media (max-width : 576px) {
+
+  .hero{
+
+    &__btn-box {
+      flex-wrap: wrap;
+      }
+
+
+
+  }
+
+
+  .popular{
+
+    &__item{
+     padding: 3.7rem 2rem 1.3rem 12rem;
+    }
+
+    &__item-title{
+      font-size: 2rem ;
+    
+    }
+  }  
+
+  .customer{
+    .customer-slider__item-title{
+      font-size: 2.4rem;
+    }
+    .customer-slider__item-text{
+      padding: 0 1.5rem;
+      font-size: 1.2rem;
+    }
+  
+    }
+
+    .booking{
+
+      &__content{
+        padding: 3.2rem 1.5rem 2.5rem;
+      }
+      
+      }
+      
+  }
+@media (max-width : 500px) {
+
+  .hero{
+
+
+    &__title{
+      max-width: 40rem;
+      font-size: 2.5rem;
+    }
+
+
+
+    &__btn-box{
+    margin-bottom: 1.5rem;
+    }
+
+  }
+
+  .coffee-machine{
+    &__title{
+      font-size: 2.6rem;
+      line-height: 4rem;
+      margin-bottom: 1.5rem;
+
+    }
+  }
+
+      
+  }
+
+
+
+
+
+@media (max-width : 491px) {
+
+
+
+.best{
+
+  &__top-row{
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  &__title{
+    white-space: nowrap;
+  }
+  &__btn{
+    white-space: nowrap;
+  }
+
+}
+
+}
+
+
+
+@media (max-width : 485px) {
+
+
+
+  .footer{
+    &__toprow, &__bottomrow {
+      display: flex;
+      justify-content: center;
+    }
+  
+
+    &__logo{
+      display: flex;
+      justify-content: center;
+    }
+
+    &__text{
+      margin-bottom: 1.5rem;
+    }
+
+  }
+
+
+
+}
+
+
+
+@media (max-width : 470px) {
+  .roasted{
+    &__title{
+      font-size: 3.5rem;
+    }
+  }
+
+.booking{
+  &__title{
+    font-size: 2rem;
+  }
+}
+
+
+}
+
+@media (max-width : 425px) {
+
+  .hero{
+
+
+    &__inner{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      }
+
+      &__content{
+        padding-top: 2rem;
+      }
+
+    &__title{
+      max-width: 30rem;
+      font-size: 1.8rem;
+      line-height: 4rem;
+    }
+    &__text{
+      max-width: 30rem;
+      font-size: 1.5rem;
+      line-height: 2rem;
+    }
+
+  }
+
+  .best{
+    padding-top: 7rem;
+  }
+
+  .examples{
+
+    &__items{
+      padding-left: -0.5rem;
+    }
+
+    &__item{
+      width: 95%;
+    }
+
+    &__topitem{
+      // width: 28rem;
+      // flex-basis: 28rem;
+      width: 95%;
+    }
+  }
+
+  .popular{
+    padding-top: 9rem;
+    &__item{
+     padding: 3.7rem 2rem 1.3rem 12rem;
+    }
+
+    &__item-title{
+      font-size: 1.8rem ;
+
+    &__item-price{
+      font-size: 1.1rem;
+    }
+    
+    }
+  }  
+
+
+  .coffee-machine{
+    &__content{
+
+      padding: 70px 0;
+    }
+
+    &__btn-box{
+      display: flex;
+      justify-content: center;
+
+    }
+  }
+
+
+
+  .customer{
+
+  .customer-slider__item-title{
+    font-size: 2.4rem;
+  }
+  .customer-slider__item-text{
+    
+    font-size: 1rem;
+  }
+  .customer-slider__item{
+    margin-bottom: 1.5rem;
+  }
+
+
+
+
+  }
+
+
+}
+@media (max-width : 400px) {
+
+  // .examples{
+
+    // &__topitem {
+
+    //   width: 100%;
+
+    // }
+
+
+  .popular{
+
+    &__item{
+      padding: 3.7rem 4rem 1.3rem 12rem;
+    }
+
+    &__item-title{
+      font-size: 1.6rem ;
+      white-space: normal;
+    }
+
+    &__item-price{
+      font-size: 1.8rem;
+      
+    }
+
+  }  
+
+
+  .coffee-machine{
+
+    &__btn-box{
+      display: flex;
+      justify-content: center;
+
+    }
+  }
+
+
+
+  .customer{
+
+  .customer-slider__item-title{
+    font-size: 2.4rem;
+  }
+  .customer-slider__item-text{
+    
+    font-size: 1rem;
+  }
+  .customer-slider__item{
+    margin-bottom: 1.5rem;
+  }
+
+
+
+
+  }
+
+
+}
+
+
+
+
+@media (max-width : 375px) {
+
+  .roasted{
+    &__title{
+      font-size: 2.9rem;
+    }
+  }
+
+  .customer{
+
+    .customer-slider__item{
+   margin-bottom: 2rem;
+    }
+
+    .customer-slider__item-title{
+      font-size: 1.6rem;
+    }
+    .customer-slider__item-text{
+      padding: 0 ;
+      font-size: 1.2rem;
+    }
+   
+  }
+
+
+  .booking {
+    text-align: center;
+
+    &__title{
+      font-size: 1.4rem;
+    }
+    &__content{
+     padding: 3.2rem 1.5rem 2.5rem;
+    }
+    &__btn{
+      font-size: 1.5rem;
+
+    }
+  }
+
+    .news{
+
+      &__item-author{
+        font-size: 1rem;
+      }
+
+      &__item-name{
+        font-size: 1.9rem;
+      }
+
+
+    }
+
+}
